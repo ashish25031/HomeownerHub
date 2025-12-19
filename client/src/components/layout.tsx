@@ -107,7 +107,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <h4 className="font-serif font-semibold mb-4">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link href="#">About Us</Link></li>
-              <li><Link href="#">Contact</Link></li>
+              <li><Link href="/contact">Contact</Link></li>
               <li><Link href="#">Privacy Policy</Link></li>
             </ul>
           </div>
